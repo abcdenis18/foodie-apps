@@ -17,6 +17,10 @@
 		1C2B1FE82AF92F9600763C22 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B1FE72AF92F9600763C22 /* HomeScreen.swift */; };
 		1C2B1FEB2AF92FB600763C22 /* OrderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B1FEA2AF92FB600763C22 /* OrderScreen.swift */; };
 		1C2B1FED2AF92FC400763C22 /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B1FEC2AF92FC400763C22 /* AccountScreen.swift */; };
+		1C2B1FEF2AF938B500763C22 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B1FEE2AF938B500763C22 /* Food.swift */; };
+		1C2B1FF12AF940C900763C22 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B1FF02AF940C900763C22 /* FoodItemView.swift */; };
+		1C2B1FF42AF9413F00763C22 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2B1FF32AF9413F00763C22 /* NetworkManager.swift */; };
+		1CB397352AF9455A008C4B85 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB397342AF9455A008C4B85 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		1C2B1FE72AF92F9600763C22 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		1C2B1FEA2AF92FB600763C22 /* OrderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderScreen.swift; sourceTree = "<group>"; };
 		1C2B1FEC2AF92FC400763C22 /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreen.swift; sourceTree = "<group>"; };
+		1C2B1FEE2AF938B500763C22 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		1C2B1FF02AF940C900763C22 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
+		1C2B1FF32AF9413F00763C22 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1CB397342AF9455A008C4B85 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,7 @@
 		1C2B1FB82AF92D1A00763C22 /* Foodie-Apps */ = {
 			isa = PBXGroup;
 			children = (
+				1C2B1FF22AF9412000763C22 /* Network */,
 				1C2B1FE62AF92F5900763C22 /* ViewModels */,
 				1C2B1FE52AF92F5400763C22 /* Views */,
 				1C2B1FE42AF92F4E00763C22 /* Models */,
@@ -150,6 +159,7 @@
 		1C2B1FE42AF92F4E00763C22 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1C2B1FEE2AF938B500763C22 /* Food.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -157,6 +167,7 @@
 		1C2B1FE52AF92F5400763C22 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1C2B1FF02AF940C900763C22 /* FoodItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +177,15 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1C2B1FF22AF9412000763C22 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1C2B1FF32AF9413F00763C22 /* NetworkManager.swift */,
+				1CB397342AF9455A008C4B85 /* NetworkError.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,8 +321,12 @@
 				1C2B1FEB2AF92FB600763C22 /* OrderScreen.swift in Sources */,
 				1C2B1FBC2AF92D1A00763C22 /* FoodieTabView.swift in Sources */,
 				1C2B1FBA2AF92D1A00763C22 /* Foodie_AppsApp.swift in Sources */,
+				1C2B1FF12AF940C900763C22 /* FoodItemView.swift in Sources */,
+				1C2B1FF42AF9413F00763C22 /* NetworkManager.swift in Sources */,
 				1C2B1FED2AF92FC400763C22 /* AccountScreen.swift in Sources */,
+				1CB397352AF9455A008C4B85 /* NetworkError.swift in Sources */,
 				1C2B1FE82AF92F9600763C22 /* HomeScreen.swift in Sources */,
+				1C2B1FEF2AF938B500763C22 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
