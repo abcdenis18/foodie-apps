@@ -13,9 +13,8 @@ struct FoodItemView: View {
     var body: some View {
         HStack (spacing: 20) {
             
-            Image("burger")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
+            FoodImageView(imageURL: food.imageURL)
+//                .aspectRatio(contentMode: .fit)
                 .frame(width: 120, height: 120)
                 .cornerRadius(10)
             

@@ -26,7 +26,7 @@ struct FoodReponse: Decodable {
 }
 
 struct MockData {
-    static let mockFood = Food(id: 0001, name: "Mock Food", description: "Mock Description", imageURL: "", price: 4.45, protein: 200, calories: 24, carbs: 300)
+    static let mockFood = Food(id: 0001, name: "Mock Food", description: "Mock Description", imageURL: "https://seanallen-course-backend.herokuapp.com/images/appetizers/asian-flank-steak.jpg", price: 4.45, protein: 200, calories: 24, carbs: 300)
     
     static let mockListFood = [mockFood, mockFood, mockFood, mockFood, mockFood, mockFood]
 }
